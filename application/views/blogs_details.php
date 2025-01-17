@@ -16,17 +16,17 @@
                     <div class="news-block-one">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="assets/images/img/blogs/1.png" alt=""></figure>
+                                <figure class="image"><img src="<?= base_url() ?>upload/blog/<?= $blogdetails['image'] ?>" alt=""></figure>
                             </div>
                             <div class="lower-content">
-                                <div class="category"><a href="blog-details.html">Laboratory</a></div>
+                                <div class="category"><a href="">Laboratory</a></div>
                                 <ul class="post-info clearfix">
                                     <li>11 August, 2022</li>
-                                    <li><a href="blog-details.html">By Admin</a></li>
+                                    <li><a href="">By Admin</a></li>
                                 </ul>
                                 <div class="text">
-                                    <h2><a href="blog-details.html">The Importance of Accurate Diagnostics in Healthcare</a></h2>
-                                    <p>In healthcare, accurate diagnostics are crucial to determining the right treatment and ensuring the best possible outcomes for patients. At Unipath Speciality Laboratory Ltd., we understand that every diagnosis matters. That’s why we’ve invested in state-of-the-art technology and an experienced team of pathologists to provide precise results.</p>
+                                    <h2><a href=""><?= $blogdetails['title'] ?></a></h2>
+                                    <p><?= $blogdetails['description'] ?></p>
                                 </div>
                             </div>
                         </div>

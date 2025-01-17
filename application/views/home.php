@@ -2,7 +2,8 @@
 <section class="banner-style-three centred">
     <div class="banner-carousel owl-theme owl-carousel owl-dots-none nav-style-one">
         <div class="slide-item">
-            <div class="image-layer" style="background-image:url(<?= base_url() ?>assets/images/img/slider/1.png)"></div>
+            <div class="image-layer" style="background-image:url(<?= base_url() ?>assets/images/img/slider/1.png)">
+            </div>
             <div class="auto-container">
                 <div class="content-box">
                     <p class="text-center">Trusted Pathology Solutions, Delivering Accuracy and Care</p>
@@ -14,7 +15,8 @@
             </div>
         </div>
         <div class="slide-item">
-            <div class="image-layer" style="background-image:url(<?= base_url() ?>assets/images/img/slider/4.png)"></div>
+            <div class="image-layer" style="background-image:url(<?= base_url() ?>assets/images/img/slider/4.png)">
+            </div>
             <div class="auto-container">
                 <div class="content-box">
                     <p class="text-center">Precision in Pathology, Care You Trust</p>
@@ -26,7 +28,8 @@
             </div>
         </div>
         <div class="slide-item">
-            <div class="image-layer" style="background-image:url(<?= base_url() ?>assets/images/img/slider/3.png)"></div>
+            <div class="image-layer" style="background-image:url(<?= base_url() ?>assets/images/img/slider/3.png)">
+            </div>
             <div class="auto-container">
                 <div class="content-box">
                     <p class="text-center">Excellence in Pathology for 10 Years</p>
@@ -47,7 +50,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 chooseus-block">
                     <div class="chooseus-block-one">
                         <div class="inner-box">
-                            <div class="shape" style="background-image: url(<?= base_url() ?>assets/images/shape/shape-21.png);"></div>
+                            <div class="shape"
+                                style="background-image: url(<?= base_url() ?>assets/images/shape/shape-21.png);"></div>
                             <div class="icon-box"><i class="flaticon-check-mark"></i></div>
                             <span>Unipath</span>
                             <h3>Your Trusted Pathology Partner</h3>
@@ -57,7 +61,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 chooseus-block">
                     <div class="chooseus-block-one">
                         <div class="inner-box">
-                            <div class="shape" style="background-image: url(<?= base_url() ?>assets/images/shape/shape-21.png);"></div>
+                            <div class="shape"
+                                style="background-image: url(<?= base_url() ?>assets/images/shape/shape-21.png);"></div>
                             <div class="icon-box"><i class="flaticon-check-mark"></i></div>
                             <span>Accurate Reports</span>
                             <h3>Delivering precise and reliable medical</h3>
@@ -67,7 +72,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 chooseus-block">
                     <div class="chooseus-block-one">
                         <div class="inner-box">
-                            <div class="shape" style="background-image: url(<?= base_url() ?>assets/images/shape/shape-21.png);"></div>
+                            <div class="shape"
+                                style="background-image: url(<?= base_url() ?>assets/images/shape/shape-21.png);"></div>
                             <div class="icon-box"><i class="flaticon-check-mark"></i></div>
                             <span>Vast Network</span>
                             <h3>45 labs across 25 cities and 11 states</h3>
@@ -77,7 +83,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 chooseus-block">
                     <div class="chooseus-block-one">
                         <div class="inner-box">
-                            <div class="shape" style="background-image: url(<?= base_url() ?>assets/images/shape/shape-21.png);"></div>
+                            <div class="shape"
+                                style="background-image: url(<?= base_url() ?>assets/images/shape/shape-21.png);"></div>
                             <div class="icon-box"><i class="flaticon-check-mark"></i></div>
                             <span>Affordable Care</span>
                             <h3>High-quality services at reasonable prices</h3>
@@ -95,15 +102,21 @@
             <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                 <div class="image-box">
                     <div class="shape">
-                        <div class="shape-1" style="background-image: url(<?= base_url() ?>assets/images/shape/shape-23.png);"></div>
-                        <div class="shape-2" style="background-image: url(<?= base_url() ?>assets/images/shape/shape-24.png);"></div>
+                        <div class="shape-1"
+                            style="background-image: url(<?= base_url() ?>assets/images/shape/shape-23.png);"></div>
+                        <div class="shape-2"
+                            style="background-image: url(<?= base_url() ?>assets/images/shape/shape-24.png);"></div>
                     </div>
                     <div class="thumb-box">
-                        <figure class="thumb thumb-1"><img src="<?= base_url() ?>assets/images/img/about1/1.png" alt="Unipath Speciality Laboratory"></figure>
-                        <figure class="thumb thumb-2"><img src="<?= base_url() ?>assets/images/img/about1/2.png" alt="Unipath Speciality Laboratory"></figure>
-                        <figure class="thumb thumb-3"><img src="<?= base_url() ?>assets/images/img/about1/3.png" alt="Unipath Speciality Laboratory"></figure>
+                        <figure class="thumb thumb-1"><img src="<?= base_url() ?>assets/images/img/about1/1.png"
+                                alt="Unipath Speciality Laboratory"></figure>
+                        <figure class="thumb thumb-2"><img src="<?= base_url() ?>assets/images/img/about1/2.png"
+                                alt="Unipath Speciality Laboratory"></figure>
+                        <figure class="thumb thumb-3"><img src="<?= base_url() ?>assets/images/img/about1/3.png"
+                                alt="Unipath Speciality Laboratory"></figure>
                     </div>
-                    <figure class="image"><img src="<?= base_url() ?>assets/images/img/about/2.png" alt="Unipath Speciality Laboratory"></figure>
+                    <figure class="image"><img src="<?= base_url() ?>assets/images/img/about/2.png"
+                            alt="Unipath Speciality Laboratory"></figure>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -113,7 +126,9 @@
                         <h2>Unipath: Setting New Standards in Pathology</h2>
                     </div>
                     <div class="text">
-                        <p>Unipath Speciality Laboratory Ltd. has been a trusted name in pathology for over a decade. With a network of 45 labs spanning 25 cities and 11 states, we are committed to delivering precise and reliable medical diagnostics.</p>
+                        <p>Unipath Speciality Laboratory Ltd. has been a trusted name in pathology for over a decade.
+                            With a network of 45 labs spanning 25 cities and 11 states, we are committed to delivering
+                            precise and reliable medical diagnostics.</p>
                     </div>
                     <div class="inner-box">
                         <div class="single-item">
@@ -144,7 +159,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box location-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">Gujarat</h3>
                     </div>
                 </div>
@@ -152,7 +168,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box location-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">Chandigarh</h3>
                     </div>
                 </div>
@@ -160,7 +177,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">Jharkhand</h3>
                     </div>
                 </div>
@@ -168,7 +186,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">Bihar</h3>
                     </div>
                 </div>
@@ -176,7 +195,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">New Delhi</h3>
                     </div>
                 </div>
@@ -184,7 +204,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">Andhra Pradesh</h3>
                     </div>
                 </div>
@@ -192,7 +213,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">Madhya Pradesh</h3>
                     </div>
                 </div>
@@ -200,7 +222,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">Assam</h3>
                     </div>
                 </div>
@@ -208,7 +231,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">sikkim</h3>
                     </div>
                 </div>
@@ -216,7 +240,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">Rajasthan</h3>
                     </div>
                 </div>
@@ -224,7 +249,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">West Bengal</h3>
                     </div>
                 </div>
@@ -232,7 +258,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">Telangana</h3>
                     </div>
                 </div>
@@ -240,7 +267,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">Maharashtra</h3>
                     </div>
                 </div>
@@ -248,7 +276,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">Odisha</h3>
                     </div>
                 </div>
@@ -256,7 +285,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">Kashmir</h3>
                     </div>
                 </div>
@@ -264,7 +294,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">Karnataka</h3>
                     </div>
                 </div>
@@ -272,7 +303,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">Chhattisgarh</h3>
                     </div>
                 </div>
@@ -280,7 +312,8 @@
             <div class="col-lg-2 col-md-6 col-sm-12 col-6 chooseus-block">
                 <div class="chooseus-block-one">
                     <div class="inner-box">
-                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory" class="location-1">
+                        <img src="<?= base_url() ?>assets/images/img/address.png" alt="Unipath Speciality Laboratory"
+                            class="location-1">
                         <h3 class="location-h3">Manipur</h3>
                     </div>
                 </div>
@@ -426,11 +459,14 @@
                     <div class="inner-box">
                         <div class="text">
                             <h3>Mission Statement</h3>
-                            <p class="text-center">Our mission is to provide the most accurate and reliable lab tests, earning the trust of families across Madhya Pradesh and Chhattisgarh.</p>
+                            <p class="text-center">Our mission is to provide the most accurate and reliable lab tests,
+                                earning the trust of families across Madhya Pradesh and Chhattisgarh.</p>
                         </div>
                         <div class="image-box">
-                            <figure class="image"><img src="<?= base_url() ?>assets/images/img/solutions/1.png" alt="Unipath Speciality Laboratory"></figure>
-                            <div class="icon-box"><img src="<?= base_url() ?>assets/images/icons/icon-1.png" alt="Unipath Speciality Laboratory"></div>
+                            <figure class="image"><img src="<?= base_url() ?>assets/images/img/solutions/1.png"
+                                    alt="Unipath Speciality Laboratory"></figure>
+                            <div class="icon-box"><img src="<?= base_url() ?>assets/images/icons/icon-1.png"
+                                    alt="Unipath Speciality Laboratory"></div>
                             <!-- <div class="pattern-1" style="background-image: url(assets/images/img/shape-26.png);"></div> -->
                         </div>
                     </div>
@@ -440,13 +476,16 @@
                 <div class="statements-block-one">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="<?= base_url() ?>assets/images/img/solutions/2.png" alt="Unipath Speciality Laboratory"></figure>
-                            <div class="icon-box"><img src="<?= base_url() ?>assets/images/icons/icon-2.png" alt="Unipath Speciality Laboratory"></div>
+                            <figure class="image"><img src="<?= base_url() ?>assets/images/img/solutions/2.png"
+                                    alt="Unipath Speciality Laboratory"></figure>
+                            <div class="icon-box"><img src="<?= base_url() ?>assets/images/icons/icon-2.png"
+                                    alt="Unipath Speciality Laboratory"></div>
                             <!-- <div class="pattern-1" style="background-image: url(assets/images/shape/shape-26.png);"></div> -->
                         </div>
                         <div class="text">
                             <h3>Vision Statement</h3>
-                            <p class="text-center">Our vision is to make quality diagnostics accessible to everyone across Madhya Pradesh and Chhattisgarh.</p>
+                            <p class="text-center">Our vision is to make quality diagnostics accessible to everyone
+                                across Madhya Pradesh and Chhattisgarh.</p>
                         </div>
                     </div>
                 </div>
@@ -456,11 +495,14 @@
                     <div class="inner-box">
                         <div class="text">
                             <h3>Our Value</h3>
-                            <p class="text-center">We believe that quality healthcare should be within everyone's reach, regardless of location..</p>
+                            <p class="text-center">We believe that quality healthcare should be within everyone's reach,
+                                regardless of location..</p>
                         </div>
                         <div class="image-box">
-                            <figure class="image"><img src="<?= base_url() ?>assets/images/img/solutions/3.png" alt="Unipath Speciality Laboratory"></figure>
-                            <div class="icon-box"><img src="<?= base_url() ?>assets/images/icons/icon-3.png" alt="Unipath Speciality Laboratory"></div>
+                            <figure class="image"><img src="<?= base_url() ?>assets/images/img/solutions/3.png"
+                                    alt="Unipath Speciality Laboratory"></figure>
+                            <div class="icon-box"><img src="<?= base_url() ?>assets/images/icons/icon-3.png"
+                                    alt="Unipath Speciality Laboratory"></div>
                             <!-- <div class="pattern-1" style="background-image: url(assets/images/shape/shape-26.png);"></div> -->
                         </div>
                     </div>
@@ -481,7 +523,8 @@
                 <div class="card package-card">
                     <div class="card-body">
                         <h3 class="card-title">INDORE (SOUTH TUKOGANJ)</h3>
-                        <p><b>Address:</b> 28/1 B South Tukoganj Opposite Nath Mandir, Main Road, Kanchan Bagh, Indore, Madhya Pradesh – 452001</p>
+                        <p><b>Address:</b> 28/1 B South Tukoganj Opposite Nath Mandir, Main Road, Kanchan Bagh, Indore,
+                            Madhya Pradesh – 452001</p>
                         <div class="price-section">
                             <span class="left-price">
                                 <a href="tel:0731-421-1101">
@@ -502,7 +545,8 @@
                 <div class="card package-card">
                     <div class="card-body">
                         <h3 class="card-title">INDORE (ANNAPURNA)</h3>
-                        <p><b>Address:</b> 725, Annapurna Rd, opposite Dashera Maidan, near Unique Hospital, Usha Nagar, Indore, Madhya Pradesh – 452009</p>
+                        <p><b>Address:</b> 725, Annapurna Rd, opposite Dashera Maidan, near Unique Hospital, Usha Nagar,
+                            Indore, Madhya Pradesh – 452009</p>
                         <div class="price-section">
                             <span class="left-price">
                                 <a href="tel:07314211104">
@@ -517,7 +561,8 @@
                 <div class="card package-card">
                     <div class="card-body">
                         <h3 class="card-title">JABALPUR</h3>
-                        <p><b>Address:</b> First Floor, Platinum Plaza, In Front of Sudarshan Motors, Wright Town, Jabalpur -482002, Madhya Pradesh</p>
+                        <p><b>Address:</b> First Floor, Platinum Plaza, In Front of Sudarshan Motors, Wright Town,
+                            Jabalpur -482002, Madhya Pradesh</p>
                         <div class="price-section">
                             <span class="left-price">
                                 <a href="tel:0731-421-1101">
@@ -623,12 +668,13 @@
                                 <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                     <label>Test Packages </label>
                                     <div class="select-box">
-                                        <select class="selectmenu">
-                                            <option selected="selected">Select Packages</option>
-                                            <option>Basic Health Check-Up</option>
-                                            <option>Comprehensive Health Check-Up</option>
-                                            <option>Women's Wellness</option>
-                                            <option>Senior Citizen Health</option>
+                                        <select name="package" class="selectmenu" required>
+                                            <option value="" selected="selected">Select Packages</option>
+                                            <option value="Basic Health Checkup">Basic Health Checkup</option>
+                                            <option value="Comprehensive Health Checkup">Comprehensive Health Checkup
+                                            </option>
+                                            <option value="Womens's Wellness">Womens's Wellness</option>
+                                            <option value="Senior Citizen Health">Senior Citizen Health</option>
                                         </select>
                                     </div>
                                 </div>
@@ -647,11 +693,21 @@
 <section class="clients-section">
     <div class="auto-container">
         <div class="five-item-carousel owl-carousel owl-theme owl-dots-none owl-nav-none h-100">
-            <figure class="clients-logo"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/images/img/unipath logo.jpg" alt="Unipath Speciality Laboratory"></a></figure>
-            <figure class="clients-logo"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/images/img/unipath logo.jpg" alt="Unipath Speciality Laboratory"></a></figure>
-            <figure class="clients-logo"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/images/img/unipath logo.jpg" alt="Unipath Speciality Laboratory"></a></figure>
-            <figure class="clients-logo"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/images/img/unipath logo.jpg" alt="Unipath Speciality Laboratory"></a></figure>
-            <figure class="clients-logo"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/images/img/unipath logo.jpg" alt="Unipath Speciality Laboratory"></a></figure>
+            <figure class="clients-logo"><a href="<?= base_url() ?>"><img
+                        src="<?= base_url() ?>assets/images/img/unipath-logo.jpg"
+                        alt="Unipath Speciality Laboratory"></a></figure>
+            <figure class="clients-logo"><a href="<?= base_url() ?>"><img
+                        src="<?= base_url() ?>assets/images/img/unipath-logo.jpg"
+                        alt="Unipath Speciality Laboratory"></a></figure>
+            <figure class="clients-logo"><a href="<?= base_url() ?>"><img
+                        src="<?= base_url() ?>assets/images/img/unipath-logo.jpg"
+                        alt="Unipath Speciality Laboratory"></a></figure>
+            <figure class="clients-logo"><a href="<?= base_url() ?>"><img
+                        src="<?= base_url() ?>assets/images/img/unipath-logo.jpg"
+                        alt="Unipath Speciality Laboratory"></a></figure>
+            <figure class="clients-logo"><a href="<?= base_url() ?>"><img
+                        src="<?= base_url() ?>assets/images/img/unipath-logo.jpg"
+                        alt="Unipath Speciality Laboratory"></a></figure>
         </div>
     </div>
 </section>

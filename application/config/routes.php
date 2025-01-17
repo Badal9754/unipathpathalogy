@@ -11,5 +11,22 @@ $route['about'] = 'home/about';
 $route['contact'] = 'home/contact';
 $route['services'] = 'home/services';
 $route['blogs'] = 'home/blogs';
-$route['blogs_details'] = 'home/blogs_details';
+$route['blog-details/(:any)'] = 'Home/blogs_details/$1';
+$route['blogs_details'] = 'Home/blogs_details';
 $route['privacy_policy'] = 'home/privacy_policy';
+
+
+
+
+
+// ----------------admin----------
+
+$route['admin'] = 'admin/AdminAuth/admin';
+$route['adminLogout'] = 'admin/AdminAuth/adminLogout';
+$route['dashboard'] = 'admin/AdminHome/dashboard';
+$route['contact_query'] = 'admin/AdminHome/contact_query';
+$route['appointment_query'] = 'admin/AdminHome/appointment_query';
+$route['blog_add'] = 'admin/AdminHome/blog_add';
+$route['blog_All'] = 'admin/AdminHome/blog_All';
+$route['service_add'] = 'admin/AdminHome/service_add';
+$route['service_All'] = 'admin/AdminHome/service_All';

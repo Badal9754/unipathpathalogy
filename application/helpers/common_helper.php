@@ -29,7 +29,16 @@ function sessionId($id)
 	$ci = &get_instance();
 	return $ci->session->userdata($id);
 }
-
+function flashMultiData($vardata)
+{
+	$ci = &get_instance();
+	return $ci->session->set_flashdata($vardata);
+}
+function unsetsessionId($var)
+{
+	$ci = &get_instance();
+	return $ci->session->unset_userdata($var);
+}
 function insertRow($table, $data)
 {
 	$ci = &get_instance();

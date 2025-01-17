@@ -41,7 +41,7 @@
         <div id="search-popup" class="search-popup">
             <div class="popup-inner">
                 <div class="upper-box clearfix">
-                    <figure class="logo-box pull-left"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/images/img/unipath logo.jpg" alt="Unipath Speciality Laboratory"></a></figure>
+                    <figure class="logo-box pull-left"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/images/img/unipath-logo.jpg" alt="Unipath Speciality Laboratory"></a></figure>
                     <div class="close-search pull-right"><i class="fa-solid fa-xmark"></i></div>
                 </div>
                 <div class="overlay-layer"></div>
@@ -87,7 +87,7 @@
                 <div class="outer-container">
                     <div class="outer-box">
                         <div class="logo-box">
-                            <figure class="logo"><a href="<?= base_url() ?>"><img src="assets/images/img/unipath logo.jpg" alt="Unipath Speciality Laboratory"></a></figure>
+                            <figure class="logo"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/images/img/unipath-logo.jpg" alt="Unipath Speciality Laboratory"></a></figure>
                         </div>
                         <div class="menu-area clearfix">
                             <div class="mobile-nav-toggler">
@@ -126,7 +126,7 @@
                 <div class="container-fluid">
                     <div class="outer-box">
                         <div class="logo-box">
-                            <figure class="logo"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/images/img/unipath logo.jpg" alt="Unipath Speciality Laboratory"></a></figure>
+                            <figure class="logo"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/images/img/unipath-logo.jpg" alt="Unipath Speciality Laboratory"></a></figure>
                         </div>
                         <div class="menu-area clearfix">
                             <nav class="main-menu clearfix">

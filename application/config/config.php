@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$config['base_url'] = 'http://localhost/unpath_pathology/';
+$config['base_url'] = 'http://localhost/unipath/';
 
 $config['index_page'] = '';
 
