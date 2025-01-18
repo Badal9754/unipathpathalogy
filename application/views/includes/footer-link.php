@@ -67,6 +67,26 @@
         unsetsessionId('success_status');
     }
     ?>
+
+    $(document).on('change', '#state', function (e) {
+        e.preventDefault();
+        var stateID = $(this).val();
+        getCityList(stateID);
+        console.log(stateID);
+    });
+    function getCityList(stateID) {
+        $.ajax({
+            url: "<?= base_url() ?>Home/getcities",
+            type: 'post',
+            data: {
+                stateID: stateID
+            },
+            success: function (data) {
+                $("#city").html(data);
+            }
+        });
+    }
+    ;
 </script>
 
 </body>

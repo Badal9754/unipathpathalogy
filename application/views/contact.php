@@ -108,8 +108,8 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                     <label>Test Packages</label>
-                                    <div class="select-box">
-                                        <select name="packages" class="selectmenu" required>
+                                    <div class="select-box slect-1">
+                                        <select name="packages" class="selectmenu" required  style="width:100%;">
                                             <option value="" selected="selected">Select Packages</option>
                                             <option value="Basic Health Checkup">Basic Health Checkup</option>
                                             <option value="Comprehensive Health Checkup">Comprehensive Health Checkup

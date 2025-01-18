@@ -34,38 +34,43 @@ class Home extends CI_Controller
         $this->load->view('includes/header-link', $data);
         $this->load->view('about');
     }
+    public function business_partnership()
+    {
+        $data['title'] = 'Business Partnership | Unipath Pathology';
+        $this->load->view('includes/header-link', $data);
+        $this->load->view('business_partnership');
+    }
+    public function franchise()
+    {
+        $data['title'] = 'Franchise | Unipath Pathology';
+        $data['state'] = $this->CommonModal->getAllRows('tbl_state');
+        $this->load->view('includes/header-link', $data);
+        $this->load->view('franchise');
+    }
+    public function corporate_tie_up()
+    {
+        $data['title'] = 'Corporate Tie Up | Unipath Pathology';
+        $this->load->view('includes/header-link', $data);
+        $this->load->view('corporate_tie_up');
+    }
+    public function hospital_tie_up()
+    {
+        $data['title'] = 'Hospital Tie Up | Unipath Pathology';
+        $this->load->view('includes/header-link', $data);
+        $this->load->view('hospital_tie_up');
+    }
 
     public function contact()
     {
         $data['title'] = 'Contact Us | Unipath Pathology';
 
-        if ($this->input->server('REQUEST_METHOD') === 'POST') {
-            $this->load->library('form_validation');
-
-            $this->form_validation->set_rules('name', 'Name', 'required|trim');
-            $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
-            $this->form_validation->set_rules(
-                'phone',
-                'Phone',
-                'required|regex_match[/^[0-9]{10}$/]',
-                ['regex_match' => 'Phone must be a 10-digit number.']
-            );
-            $this->form_validation->set_rules('packages', 'Test Packages', 'required');
-            $this->form_validation->set_rules('message', 'Message', 'required|trim');
-
-            if ($this->form_validation->run() === FALSE) {
-                flashMultiData([
-                    'success_status' => "error",
-                    'msg' => validation_errors()
-                ]);
+        if (count($_POST) > 0) {
+            $postdata = $this->input->post();
+            $insert = $this->CommonModal->insertRowReturnId('contact_query', $postdata);
+            if ($insert) {
+                flashMultiData(['success_status' => "success", 'msg' => " Query Submitted"]);
             } else {
-                $postdata = $this->input->post();
-                $insert = $this->CommonModal->insertRowReturnId('contact_query', $postdata);
-                if ($insert) {
-                    flashMultiData(['success_status' => "success", 'msg' => "Query Submitted"]);
-                } else {
-                    flashMultiData(['success_status' => "error", 'msg' => "Something Went Wrong."]);
-                }
+                flashMultiData(['success_status' => "error", 'msg' => "Something Went Wrong."]);
             }
             redirect($_SERVER['HTTP_REFERER']);
         }
@@ -104,5 +109,13 @@ class Home extends CI_Controller
         $data['title'] = 'Privacy Policy | Unipath Pathology';
         $this->load->view('includes/header-link', $data);
         $this->load->view('privacy_policy');
+    }
+
+    public function getcities()
+    {
+        $city = $this->CommonModal->getRowById('cities', 'state_id', $this->input->post('stateID'));
+        foreach ($city as $city_nm) {
+            echo '<option value="' . $city_nm['id'] . '">' . $city_nm['name'] . '</option>';
+        }
     }
 }

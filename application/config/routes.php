@@ -14,6 +14,10 @@ $route['blogs'] = 'home/blogs';
 $route['blog-details/(:any)'] = 'Home/blogs_details/$1';
 $route['blogs_details'] = 'Home/blogs_details';
 $route['privacy_policy'] = 'home/privacy_policy';
+$route['business-partnership'] = 'Home/business_partnership';
+$route['franchise'] = 'Home/franchise';
+$route['corporate-tie-up'] = 'Home/corporate_tie_up';
+$route['hospital-tie-up'] = 'Home/hospital_tie_up';
 
 
 

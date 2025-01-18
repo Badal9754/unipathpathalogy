@@ -106,7 +106,7 @@
                                         </li>
                                         <li><a href="<?= base_url() ?>"> ⁠Collection Centers</a>
                                         </li>
-                                        <li><a href="<?= base_url() ?>">Business Partnership
+                                        <li><a href="<?= base_url('business-partnership') ?>">Business Partnership
                                         </a>
                                         </li>
                                         <li><a href="<?= base_url() ?>blogs">Blog</a></li>

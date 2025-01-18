@@ -2,6 +2,7 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 $config['base_url'] = 'http://localhost/unipath/';
+// $config['base_url'] = 'https://www.techsouls.in/unipath_laboratory/';
 
 $config['index_page'] = '';
 
